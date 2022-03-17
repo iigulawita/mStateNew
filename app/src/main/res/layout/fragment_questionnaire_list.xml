@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.QuestionnaireListFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/pick_your_questionnaire"
+        android:fontFamily="@font/raleway_medium"
+        android:letterSpacing="0.05"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_for"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnPhq"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:letterSpacing="0.1"
+        android:text="@string/anyone"
+        android:textAllCaps="false"
+        android:textColor="#808080"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnEpds"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:letterSpacing="0.1"
+        android:text="@string/pregnant_mothers_and_mothers_with_newborns"
+        android:textAllCaps="false"
+        android:textColor="#808080"
+        android:textSize="24sp" />
+</LinearLayout>

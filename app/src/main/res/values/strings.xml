@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">mState</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+    <string name="find_out_your_current_mental_state">Find out your current mental State</string>
+    <string name="did_you_know_according_who_30_80_people_with_mental_issues_does_not_seek_treatment_which_leads_to_bitter_outcomes">According WHO 30% - 80% people with mental issues does not seek treatment which leads to bitter outcomes</string>
+    <string name="female_with_her_thoughts">female with her thoughts</string>
+    <string name="by_continuing_you_agree_to_our_terms_and_conditions">By continuing you agree to our terms and conditions</string>
+    <string name="female_doing_mindfulness_meditation">Female doing mindfulness meditation</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer_desc">While this app help to diagnose certain moods through medical questionnaires , but this is not perfect, please refer to trained medical professional for a more accurate diagnosis. \n\nWe as mState developers do not hold responsible for any damage caused by using this app.\n\n
+<b>EPDS</b>\n\n
+
+The EPDS Score should not override clinical judgment. A careful clinical assessment should be carried out to confirm the diagnosis. The scale indicates how the mother has felt during the previous week. In doubtful cases it may be useful to repeat the tool after 2 weeks. The scale will not detect mothers with anxiety neuroses, phobias or personality disorders.
+
+The scale will not detect mothers with anxiety neuroses, phobias or personality disorders.\n\n
+
+<b>PHQ9</b>\n\n
+
+Since the questionnaire relies on patient self-report, all responses should be verified by the clinician, and a definitive diagnosis is made on clinical grounds taking into account how well the patient understood the questionnaire, as well as other relevant information from the patient.
+Diagnoses of Major Depressive Disorder or Other Depressive Disorder also require impairment of social, occupational, or other important areas of functioning (Question #10) and ruling out normal bereavement, a history of a Manic Episode (Bipolar Disorder), and a physical disorder, medication, or other drug as the biological cause of the depressive symptoms.
+
+    </string>
+    <string name="version_0_0_1">Version : 0.0.1</string>
+    <string name="mstate_logo">mState logo</string>
+    <string name="app_desc">mState help people to diagnose user\'s mood and help and encourage users to seek help and notify relevant contacts if they are in a troubled situation.</string>
+    <string name="stethoscope">Stethoscope</string>
+    <string name="personal_health_questionnaire_depression_scale_phq9">Personal Health Questionnaire Depression Scale (PHQ9)</string>
+    <string name="edinburgh_postnatal_depression_scale_epds">Edinburgh Postnatal Depression Scale (EPDS)</string>
+    <string name="pref_sms">sms</string>
+    <string name="pref_emergency_contact">emergency-contact</string>
+    <string name="pref_call">call</string>
+
+    <string name="permission_call_never_ask_again">Call permission will be never asked again</string>
+    <string name="permission_sms_never_ask_again">SMS permission will be never asked again</string>
+    <string name="permission_call_denied">Call permission was denied!</string>
+    <string name="permission_sms_denied">SMS permission was denied!</string>
+    <string name="permission_contacts_never_ask_again">Contact read permission will be never asked again!</string>
+    <string name="permission_contacts_denied">Contacts read permission was denied!</string>
+    <string name="permission_contacts_rationale">Contact read permission is necessary pick an emergency contact</string>
+    <string name="permission_call_rationale">Call permission is needed to make a call to your emergency contact</string>
+    <string name="permission_sms_rationale">SMS permission is needed to send SMS to your emergency contact</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="pref_emergency_contact_summary">Who to contact when depressed</string>
+    <string name="pref_sms_summary">Send SMS to emergency contact</string>
+    <string name="pref_call_summary">Call emergency contact</string>
+    <string name="over_the_last_2_weeks_how_often_have_you_been_bothered_by_any_of_the_following_problems_circle_one_number_on_each_line">Over the last 2 weeks, how often have you been bothered by any of the following problems?</string>
+    <string name="not_at_all">Not at all</string>
+    <string name="several_days">Several days</string>
+    <string name="_1_little_interest_or_pleasure_in_doing_things">Little interest or pleasure in doing things</string>
+    <string name="more_than_half_the_days">More than half the days</string>
+    <string name="nearly_every_day">Nearly every day</string>
+    <string name="_2_feeling_down_depressed_or_hopeless">Feeling down, depressed, or hopeless</string>
+    <string name="_3_trouble_falling_or_staying_asleep_or_sleeping_too_much">Trouble falling or staying asleep, or sleeping too much</string>
+    <string name="_4_feeling_tired_or_having_little_energy">Feeling tired or having little energy</string>
+    <string name="_6_feeling_bad_about_yourself_or_that_you_are_a_failure_or_have_let_yourself_or_your_family_down">Feeling bad about yourself or that you are a failure or have let yourself or your family down</string>
+    <string name="_5_poor_appetite_or_overeating">Poor appetite or overeating</string>
+    <string name="_7_trouble_concentrating_on_things_such_as_reading_the_newspaper_or_watching_television">Trouble concentrating on things, such as reading the newspaper or watching television</string>
+    <string name="_8_moving_or_speaking_so_slowly_that_other_people_could_have_noticed_or_the_opposite_being_so_figety_or_restless_that_you_have_been_moving_around_a_lot_more_than_usual">Moving or speaking so slowly that other people could have noticed. Or the opposite being so figety or restless that you have been moving around a lot more than usual</string>
+    <string name="_9_thoughts_that_you_would_be_better_off_dead_or_of_hurting_yourself">Thoughts that you would be better off dead, or of hurting yourself</string>
+    <string name="_10_if_you_checked_off_any_problems_how_difficult_have_these_problems_made_it_for_you_to_do_your_work_take_care_of_things_at_home_or_get_along_with_other_people">If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?</string>
+    <string name="not_difficult_at_all">Not difficult at all</string>
+    <string name="somewhat_difficult">Somewhat difficult</string>
+    <string name="very_difficult">Very difficult</string>
+    <string name="extremely_difficult">Extremely difficult</string>
+    <string name="as_you_are_pregnant_or_have_recently_had_a_baby_we_would_like_to_know_how_you_are_feeling_please_check_the_answer_that_comes_closest_to_how_you_have_felt_in_the_past_7_days_not_just_how_you_feel_today">As you are pregnant or have recently had a baby, we would like to know how you are feeling. Please check the answer that comes closest to how you have felt <b>IN THE PAST 7 DAYS</b>, not just how you feel today</string>
+    <string name="in_the_past_7_days">In the past 7 days</string>
+    <string name="_1_i_have_been_able_to_laugh_and_see_the_funny_side_of_things">I have been able to laugh and see the funny side of things</string>
+    <string name="as_much_as_i_always_could">As much as I always could</string>
+    <string name="not_quite_so_much_now">Not quite so much now</string>
+    <string name="definitely_not_so_much_now">Definitely not so much now</string>
+    <string name="_2_i_have_looked_forward_with_enjoyment_to_things">I have looked forward with enjoyment to things</string>
+    <string name="as_much_as_i_ever_did">As much as I ever did</string>
+    <string name="rather_less_than_i_used_to">Rather less than I used to</string>
+    <string name="definitely_less_than_i_used_to">Definitely less than I used to</string>
+    <string name="hardly_at_all">Hardly at all</string>
+    <string name="_3_i_have_blamed_myself_unnecessarily_when_things_went_wrong">I have blamed myself unnecessarily when things went wrong</string>
+    <string name="yes_most_of_the_time">Yes, most of the time</string>
+    <string name="yes_some_of_the_time">Yes, some of the time</string>
+    <string name="not_very_often">Not very often</string>
+    <string name="no_never">No, never</string>
+    <string name="_4_i_have_been_anxious_or_worried_for_no_good_reason">I have been anxious or worried for no good reason</string>
+    <string name="hardly_ever">Hardly ever</string>
+    <string name="yes_sometimes">Yes, sometimes</string>
+    <string name="yes_very_often">Yes, very often</string>
+    <string name="yes_quite_a_lot">Yes, quite a lot</string>
+    <string name="no_not_much">No, not much</string>
+    <string name="_6_things_have_been_getting_on_top_of_me">Things have been getting on top of me</string>
+    <string name="yes_most_of_the_time_i_haven_t_been_able_to_cope_at_all">Yes, most of the time I haven’t been able to cope at all</string>
+    <string name="yes_sometimes_i_haven_t_been_coping_as_well_as_usual">Yes, sometimes I haven’t been coping as well as usual</string>
+    <string name="no_most_of_the_time_i_have_coped_quite_well">No, most of the time I have coped quite well</string>
+    <string name="no_i_have_been_coping_as_well_as_ever">No, I have been coping as well as ever</string>
+    <string name="_7i_have_been_so_unhappy_that_i_have_had_difficulty_sleeping">I have been so unhappy that I have had difficulty sleeping</string>
+    <string name="_9_i_have_been_so_unhappy_that_i_have_been_crying">I have been so unhappy that I have been crying</string>
+    <string name="yes_quite_often">Yes, quite often</string>
+    <string name="only_occasionally">Only occasionally</string>
+    <string name="_5_i_have_felt_scared_or_panicky_for_no_very_good_reason">I have felt scared or panicky for no very good reason</string>
+    <string name="no_not_at_all">Not at all</string>
+    <string name="_8_i_have_felt_sad_or_miserable">I have felt sad or miserable</string>
+    <string name="_10_the_thought_of_harming_myself_has_occurred_to_me">10. The thought of harming myself has occurred to me</string>
+    <string name="sometimes">Sometimes</string>
+    <string name="never">Never</string>
+    <string name="submit">Submit</string>
+    <string name="pick_your_questionnaire">Pick Your Questionnaire</string>
+    <string name="_for">For</string>
+
+    <string name="anyone">Anyone</string>
+    <string name="please_select_a_choice">Please select a choice!</string>
+    <string name="_1">1.</string>
+    <string name="_2">2.</string>
+    <string name="_3">3. </string>
+    <string name="_4">4. </string>
+    <string name="_5">5. </string>
+    <string name="_6">6.</string>
+    <string name="_7">7.</string>
+    <string name="_8">8. </string>
+    <string name="_9">9. </string>
+    <string name="_10">10. </string>
+    <string name="please_mark_all_of_the_questions">Please mark all of the questions!</string>
+    <string name="pregnant_mothers_and_mothers_with_newborns">Pregnant Mothers and Mothers with Newborns</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="guidelines">Guidelines</string>
+    <string name="sad_face">Sad face</string>
+    <string name="okay">Okay</string>
+    <string name="hurray_you_do_not_have_any_level_of_depression_keep_up_the_good_work_n_nexercise_and_meditate_daily_to_have_for_a_healthy_brain_which_leads_to_a_healthy_mind">Hurray! You do not have any level of depression. Keep up the good work!\n\nExercise and meditate daily to have for a healthy brain which leads to a healthy mind!</string>
+    <string name="i_ll_keep_these_in_mind">I\'ll Keep these in mind</string>
+    <string name="read_guidelines">Read Guidelines</string>
+    <string name="pref_user_doc_ref">user-doc-ref</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in_with_email">Sign In with Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_account_yet">No account yet? <u>Sign Up</u></string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="passwords_do_not_match">Passwords do not match!</string>
+    <string name="address">Address</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="name">Full Name</string>
+    <string name="profile">Profile</string>
+    <string name="next_of_kin_guardian_name">Next of kin / Guardian Name</string>
+    <string name="their_mobile_no">Their Mobile No</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="done">Done</string>
+    <string name="_12_987_65_4321">+12 987 65 4321</string>
+    <string name="john_doe">John Doe</string>
+    <string name="no_26_67th_street_neverland">No 26, 67th Street, Neverland</string>
+    <string name="_12_123_45_6789">+12 123 45 6789</string>
+    <string name="marcus_doe">Marcus Doe</string>
+    <string name="sign_in">Sign In</string>
+    <string name="fill_all_fields">Please fill all the fields</string>
+    <string name="incorrect_email_password">Incorrect email / password</string>
+    <string name="email_password_not_empty">Email / Password cannot be empty!</string>
+    <string name="sign_in_failed">Sign In failed!</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="sorry_to_let_you_know">Sorry to let you know you were diagnosed with %1$s according to the %2$s scoring.</string>
+    <string name="you_have_not_taken_any_tests_yet">You have not taken any tests yet</string>
+    <string name="pref_disclaimer">disclaimer</string>
+    <string name="pref_disclaimer_summary">Warnings about app usage</string>
+    <string name="pref_about">about</string>
+    <string name="pref_about_summary">Brief description about the app</string>
+    <string name="pref_sign_out_summary">Log out of current account</string>
+    <string name="pref_sign_out">sign_out</string>
+    <string name="mobile_no_cannot_be_same">Your and Guardians mobile number cannot be the same!</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.Phq9Fragment"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_health_questionnaire_depression_scale_phq9"
+                android:letterSpacing="0.1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/over_the_last_2_weeks_how_often_have_you_been_bothered_by_any_of_the_following_problems_circle_one_number_on_each_line"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewPhq9"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/lbError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/please_mark_all_of_the_questions"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:letterSpacing="0.1"
+                android:layout_marginTop="20dp"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
