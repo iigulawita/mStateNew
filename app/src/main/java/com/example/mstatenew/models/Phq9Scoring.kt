@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 class Phq9Scoring(private var answers: Array<QuestionItem>) {
     private var score: Int = 0
@@ -29,3 +29,5 @@ class Phq9Scoring(private var answers: Array<QuestionItem>) {
 
     fun getScore(): Int = score
 }
+
+

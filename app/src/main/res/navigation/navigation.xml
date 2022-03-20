@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.mstate.ui.fragments.MainFragment"
+        android:name="com.example.mstatenew.ui.fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/questionnaireFragment"
-        android:name="com.example.mstate.ui.fragments.QuestionnaireListFragment"
+        android:name="com.example.mstatenew.ui.fragments.QuestionnaireListFragment"
         android:label="fragment_questionnaire"
         tools:layout="@layout/fragment_questionnaire_list">
         <action
@@ -37,12 +37,12 @@
     </fragment>
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.example.mstate.ui.fragments.HistoryFragment"
+        android:name="com.example.mstatenew.ui.fragments.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.mstate.ui.fragments.SignInFragment"
+        android:name="com.example.mstatenew.ui.fragments.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in">
         <action
@@ -62,17 +62,17 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.mstate.ui.fragments.AboutFragment"
+        android:name="com.example.mstatenew.ui.fragments.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/disclaimerFragment"
-        android:name="com.example.mstate.ui.fragments.DisclaimerFragment"
+        android:name="com.example.mstatenew.ui.fragments.DisclaimerFragment"
         android:label="fragment_disclaimer"
         tools:layout="@layout/fragment_disclaimer" />
     <fragment
         android:id="@+id/depressedFragment"
-        android:name="com.example.mstate.ui.fragments.DepressedFragment"
+        android:name="com.example.mstatenew.ui.fragments.DepressedFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_depressed">
         <argument
@@ -90,7 +90,7 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.mstate.ui.fragments.SettingsFragment"
+        android:name="com.example.mstatenew.ui.fragments.SettingsFragment"
         android:label="fragment_settings">
         <action
             android:id="@+id/action_settings_to_about"
@@ -104,7 +104,7 @@
         app:destination="@id/signInFragment" />
     <fragment
         android:id="@+id/epdsFragment"
-        android:name="com.example.mstate.ui.fragments.EpdsFragment"
+        android:name="com.example.mstatenew.ui.fragments.EpdsFragment"
         android:label="fragment_epds"
         tools:layout="@layout/fragment_epds">
         <action
@@ -118,7 +118,7 @@
     </fragment>
     <fragment
         android:id="@+id/phqFragment"
-        android:name="com.example.mstate.ui.fragments.Phq9Fragment"
+        android:name="com.example.mstatenew.ui.fragments.Phq9Fragment"
         android:label="fragment_phq"
         tools:layout="@layout/fragment_phq">
 
@@ -133,18 +133,18 @@
     </fragment>
     <fragment
         android:id="@+id/guidelinesFragment"
-        android:name="com.example.mstate.ui.fragments.GuidelinesFragment"
+        android:name="com.example.mstatenew.ui.fragments.GuidelinesFragment"
         android:label="fragment_guidelines"
         tools:layout="@layout/fragment_guidelines" />
     <fragment
         android:id="@+id/normalFragment"
-        android:name="com.example.mstate.ui.fragments.NormalFragment"
+        android:name="com.example.mstatenew.ui.fragments.NormalFragment"
         android:label="NormalFragment"
         tools:layout="@layout/fragment_normal" />
 
     <fragment
         android:id="@+id/editProfileFragment"
-        android:name="com.example.mstate.ui.fragments.EditProfileFragment"
+        android:name="com.example.mstatenew.ui.fragments.EditProfileFragment"
         android:label="fragment_edit_profile"
         tools:layout="@layout/fragment_edit_profile">
         <argument
@@ -158,7 +158,7 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.mstate.ui.fragments.ProfileFragment"
+        android:name="com.example.mstatenew.ui.fragments.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile">
         <action
@@ -168,12 +168,12 @@
     </fragment>
     <fragment
         android:id="@+id/signUpEmailFragment"
-        android:name="com.example.mstate.ui.fragments.SignUpEmailFragment"
+        android:name="com.example.mstatenew.ui.fragments.SignUpEmailFragment"
         android:label="fragment_sign_up_email"
         tools:layout="@layout/fragment_sign_up_email" />
     <fragment
         android:id="@+id/signInEmailFragment"
-        android:name="com.example.mstate.ui.fragments.SignInEmailFragment"
+        android:name="com.example.mstatenew.ui.fragments.SignInEmailFragment"
         android:label="fragment_sign_in_email"
         tools:layout="@layout/fragment_sign_in_email">
         <action

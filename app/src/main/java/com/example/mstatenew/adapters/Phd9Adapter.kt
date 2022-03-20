@@ -1,4 +1,4 @@
-package com.example.mstate.adapters
+package com.example.mstatenew.adapters
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mstate.R
-import com.example.mstate.models.QuestionItem
+import com.example.mstatenew.R
+import com.example.mstatenew.models.QuestionItem
 
 class Phd9Adapter(var dataSet: Array<QuestionItem>) :
     RecyclerView.Adapter<Phd9Adapter.ViewHolder>() {
@@ -94,3 +94,5 @@ class Phd9Adapter(var dataSet: Array<QuestionItem>) :
         const val TAG: String = "Phd9Adapter"
     }
 }
+
+

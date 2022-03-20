@@ -1,12 +1,12 @@
-package com.example.mstate.adapters
+package com.example.mstatenew.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mstate.R
-import com.example.mstate.models.HistoryItem
+import com.example.mstatenew.R
+import com.example.mstatenew.models.HistoryItem
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
 import java.util.*
@@ -49,3 +49,5 @@ class HistoryAdapter(private val dataSet: List<HistoryItem>) :
 
     override fun getItemCount(): Int = dataSet.size
 }
+
+

@@ -1,4 +1,4 @@
-package com.example.mstate.ui.fragments
+package com.example.mstatenew.ui.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,12 +8,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.mstate.R
-import com.example.mstate.databinding.FragmentEditProfileBinding
-import com.example.mstate.models.AppUser
-import com.example.mstate.models.Guardian
-import com.example.mstate.services.FirestoreService
-import com.example.mstate.services.UserCallback
+import com.example.mstatenew.ui.fragments.EditProfileFragmentArgs
+import com.example.mstatenew.R
+import com.example.mstatenew.databinding.FragmentEditProfileBinding
+import com.example.mstatenew.models.AppUser
+import com.example.mstatenew.models.Guardian
+import com.example.mstatenew.services.FirestoreService
+import com.example.mstatenew.services.UserCallback
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

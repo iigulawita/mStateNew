@@ -1,7 +1,7 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 import android.content.Context
-import com.example.mstate.R
+import com.example.mstatenew.R
 
 class QuestionLibrary {
     fun getPhq9Questions(context: Context): Array<QuestionItem> = arrayOf(

@@ -1,3 +1,5 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 data class Settings(var smsOn: Boolean, var callOn: Boolean)
+
+

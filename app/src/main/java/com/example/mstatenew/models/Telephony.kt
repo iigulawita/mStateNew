@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 import android.app.Activity
 import android.content.Context
@@ -6,8 +6,8 @@ import android.content.Intent
 import android.net.Uri
 import android.telephony.SmsManager
 import android.util.Log
-import com.example.mstate.services.FirestoreService
-import com.example.mstate.services.UserCallback
+import com.example.mstatenew.services.FirestoreService
+import com.example.mstatenew.services.UserCallback
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 

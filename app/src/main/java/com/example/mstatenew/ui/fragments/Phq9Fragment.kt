@@ -1,4 +1,4 @@
-package com.example.mstate.ui.fragments
+package com.example.mstatenew.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,15 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mstate.R
-import com.example.mstate.adapters.Phd9Adapter
-import com.example.mstate.databinding.FragmentPhqBinding
-import com.example.mstate.models.*
-import com.example.mstate.services.FirestoreService
+import com.example.mstatenew.ui.fragments.Phq9FragmentDirections
+import com.example.mstatenew.models.Phq9DepressionLevels
+import com.example.mstatenew.models.Phq9Scoring
+import com.example.mstatenew.models.QuestionnaireType
+import com.example.mstatenew.R
+import com.example.mstatenew.adapters.Phd9Adapter
+import com.example.mstatenew.databinding.FragmentPhqBinding
+import com.example.mstatenew.models.*
+import com.example.mstatenew.services.FirestoreService
 import com.google.firebase.Timestamp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

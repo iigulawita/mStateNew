@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 import com.google.firebase.Timestamp
 
@@ -7,3 +7,4 @@ data class HistoryItem(
     val questionnaireType: String = "",
     val score: Int? = -1,
 )
+

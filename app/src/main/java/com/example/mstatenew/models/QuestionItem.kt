@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 data class QuestionItem(
     val questionNo: String,
@@ -10,3 +10,5 @@ data class QuestionItem(
     var selected: Int,
     val errorMessage: String
 )
+
+

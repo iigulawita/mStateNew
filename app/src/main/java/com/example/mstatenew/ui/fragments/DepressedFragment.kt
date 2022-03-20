@@ -1,4 +1,4 @@
-package com.example.mstate.ui.fragments
+package com.example.mstatenew.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.mstate.R
-import com.example.mstate.databinding.FragmentDepressedBinding
+import com.example.mstatenew.ui.fragments.DepressedFragmentArgs
+import com.example.mstatenew.R
+import com.example.mstatenew.databinding.FragmentDepressedBinding
 
 class DepressedFragment : Fragment() {
 
@@ -40,3 +41,5 @@ class DepressedFragment : Fragment() {
         _binding = null
     }
 }
+
+

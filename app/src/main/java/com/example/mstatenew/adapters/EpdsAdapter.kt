@@ -1,4 +1,4 @@
-package com.example.mstate.adapters
+package com.example.mstatenew.adapters
 
 import android.annotation.SuppressLint
 import android.util.Log
@@ -9,8 +9,8 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mstate.R
-import com.example.mstate.models.QuestionItem
+import com.example.mstatenew.R
+import com.example.mstatenew.models.QuestionItem
 
 @SuppressLint("LogConditional")
 class EpdsAdapter(var dataSet: Array<QuestionItem>) :
@@ -96,3 +96,5 @@ class EpdsAdapter(var dataSet: Array<QuestionItem>) :
         const val EPDS_ADAPTER = "EpdsAdapter"
     }
 }
+
+

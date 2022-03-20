@@ -1,4 +1,4 @@
-package com.example.mstate.ui.fragments
+package com.example.mstatenew.ui.fragments
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -13,9 +13,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
-import com.example.mstate.R
-import com.example.mstate.models.Settings
-import com.example.mstate.services.FirestoreService
+import com.example.mstatenew.R
+import com.example.mstatenew.models.Settings
+import com.example.mstatenew.services.FirestoreService
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

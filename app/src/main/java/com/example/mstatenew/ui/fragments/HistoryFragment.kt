@@ -1,4 +1,4 @@
-package com.example.mstate.ui.fragments
+package com.example.mstatenew.ui.fragments
 
 
 import android.os.Bundle
@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mstate.adapters.HistoryAdapter
-import com.example.mstate.databinding.FragmentHistoryBinding
-import com.example.mstate.models.HistoryItem
-import com.example.mstate.services.FirestoreService
-import com.example.mstate.services.HistoryCallback
+import com.example.mstatenew.adapters.HistoryAdapter
+import com.example.mstatenew.databinding.FragmentHistoryBinding
+import com.example.mstatenew.models.HistoryItem
+import com.example.mstatenew.services.FirestoreService
+import com.example.mstatenew.services.HistoryCallback
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

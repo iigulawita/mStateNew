@@ -1,7 +1,9 @@
-package com.example.mstate.services
+package com.example.mstatenew.services
 
-import com.example.mstate.models.HistoryItem
+import com.example.mstatenew.models.HistoryItem
 
 interface HistoryCallback {
     fun onPostExecute(histories: List<HistoryItem>?)
 }
+
+

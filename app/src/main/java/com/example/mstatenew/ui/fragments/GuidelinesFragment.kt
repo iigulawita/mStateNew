@@ -1,4 +1,4 @@
-package com.example.mstate.ui.fragments
+package com.example.mstatenew.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.mstate.databinding.FragmentGuidelinesBinding
-import com.example.mstate.models.AutomatedResponse
-import com.example.mstate.models.Guider
-import com.example.mstate.models.HistoryItem
-import com.example.mstate.models.QuestionnaireType
-import com.example.mstate.services.FirestoreService
-import com.example.mstate.services.HistoryCallback
+import com.example.mstatenew.databinding.FragmentGuidelinesBinding
+import com.example.mstatenew.models.AutomatedResponse
+import com.example.mstatenew.models.Guider
+import com.example.mstatenew.models.HistoryItem
+import com.example.mstatenew.models.QuestionnaireType
+import com.example.mstatenew.services.FirestoreService
+import com.example.mstatenew.services.HistoryCallback
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

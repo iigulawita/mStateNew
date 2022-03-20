@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 data class AppUser(
     val uid: String?,
@@ -10,3 +10,5 @@ data class AppUser(
     val guardian: Guardian?,
     val settings: Settings?
 )
+
+

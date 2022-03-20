@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 enum class Phq9DepressionLevels(val disorderName: String) {
     Undefined("Undefined"),
@@ -9,3 +9,5 @@ enum class Phq9DepressionLevels(val disorderName: String) {
     ModeratelySevere("Major Depressive Disorder with moderately severe depression"),
     Severe("Major Depressive Disorder with severe depression")
 }
+
+

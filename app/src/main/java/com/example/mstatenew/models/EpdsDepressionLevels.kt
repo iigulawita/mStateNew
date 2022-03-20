@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 enum class EpdsDepressionLevels(val diagnosis: String) {
     Undefined("Undefined"),

@@ -1,11 +1,11 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.util.Log
 import androidx.preference.PreferenceManager
-import com.example.mstate.R
+import com.example.mstatenew.R
 
 const val TAG: String = "AutomatedResponse"
 
@@ -36,3 +36,5 @@ class AutomatedResponse {
         }
     }
 }
+
+

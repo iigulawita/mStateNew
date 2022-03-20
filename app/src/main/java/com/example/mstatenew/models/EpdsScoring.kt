@@ -1,4 +1,4 @@
-package com.example.mstate.models
+package com.example.mstatenew.models
 
 class EpdsScoring(private var answers: Array<QuestionItem>) {
     private var score = 0
