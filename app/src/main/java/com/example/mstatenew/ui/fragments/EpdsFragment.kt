@@ -1,5 +1,6 @@
 package com.example.mstatenew.ui.fragments
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -64,8 +65,9 @@ class EpdsFragment : Fragment() {
     }
 
     private fun saveTestResult() {
+        val timestamp = Timestamp.now()
         val historyItem = HistoryItem(
-            Timestamp.now(),
+            timestamp,
             QuestionnaireType.EPDS.name,
             epdsScoring.getScore()
         )
@@ -75,13 +77,23 @@ class EpdsFragment : Fragment() {
         if (firebaseAuth.currentUser?.uid != null) {
             val uid = firebaseAuth.currentUser?.uid.toString()
             firestoreService.addHistoryItem(uid, historyItem)
+            updateTodayTimestamp(timestamp)
         } else {
             firebaseAuth.signOut()
             findNavController().navigate(R.id.action_global_signIn)
         }
     }
 
-    private fun setupRecyclerView() {
+    private fun updateTodayTimestamp(timestamp: Timestamp) {
+        val sharedPref = activity?.getPreferences(Context.MODE_PRIVATE) ?: return
+        with(sharedPref.edit()) {
+            putLong(getString(R.string.pref_today_timestamp), timestamp.seconds)
+            apply()
+        }
+    }
+
+
+        private fun setupRecyclerView() {
         linearLayoutManager = LinearLayoutManager(context)
         binding.recyclerViewEPDS.layoutManager = linearLayoutManager
         items = QuestionLibrary().getEpdsQuestions(requireContext())
