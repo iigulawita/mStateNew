@@ -21,24 +21,32 @@ import com.google.android.gms.common.api.ApiException
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 @SuppressLint("LogConditional")
 class SignInFragment : Fragment() {
 
     private var _binding: FragmentSignInBinding? = null
+
     internal val binding get() = _binding!!
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
     private lateinit var firestoreService: FirestoreService
+    private var binding_: Fragment? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
+
+
     ): View {
         _binding = FragmentSignInBinding.inflate(inflater, container, false)
         init()
         return binding.root
     }
+
+
 
     private fun init() {
         setupGoogleSignInClient()
@@ -87,6 +95,7 @@ class SignInFragment : Fragment() {
 
     private fun firebaseAuthWithGoogle(idToken: String) {
         val credential = GoogleAuthProvider.getCredential(idToken, null)
+        auth = Firebase.auth
         auth.signInWithCredential(credential)
             .addOnCompleteListener(requireActivity()) { task ->
                 if (task.isSuccessful) {
@@ -101,6 +110,7 @@ class SignInFragment : Fragment() {
                         null,
                         null
                     )
+                    firestoreService = FirestoreService()
                     firestoreService.addUser(object : UserCallback {
 
                         override fun onPostExecute(dRef: String) {
