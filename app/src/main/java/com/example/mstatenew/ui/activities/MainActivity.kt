@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         if (auth.currentUser?.email == null) {
             navController.navigate(R.id.action_global_signIn)
         }
+
     }
 
     private fun initNavigation() {

@@ -100,10 +100,12 @@ class FirestoreService {
                 "name", appUser.name,
                 "address", appUser.address,
                 "mobileNo", appUser.mobileNo,
+                "profileComplete", appUser.profileComplete,
                 "guardian.fullName", appUser.guardian?.fullName,
                 "guardian.mobileNo", appUser.guardian?.mobileNo,
                 "settings.smsOn", appUser.settings?.smsOn,
                 "settings.callOn", appUser.settings?.callOn
+
             )
             .addOnSuccessListener { Log.d(TAG, "User DocumentSnapshot successfully updated!") }
             .addOnFailureListener { e -> Log.w(TAG, "Error updating User document", e) }
